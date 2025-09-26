@@ -23,4 +23,4 @@ on:
             java-version: '21'
 
         - name: Run tests
-          run: mvn test
+          run: ./mvnw test
