@@ -9,18 +9,19 @@ on:
     branches:
      ["master"]
 
-  jobs:
-    test:
-      runs-on: ubuntu-latest
+jobs:
+  test:
+    runs-on: ubuntu-latest
 
-      steps:
-        - name: Checkout code
-          uses: actions/checkoutv5
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-        - name: Setup JAVA
-          with:
-            distribution: 'jetbrains'
-            java-version: '21'
+      - name: Setup JAVA
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '21'
 
-        - name: Run tests
-          run: ./mvnw test
+      - name: Run tests
+        run: mvn test
