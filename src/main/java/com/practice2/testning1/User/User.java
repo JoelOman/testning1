@@ -3,7 +3,7 @@ package com.practice2.testning1.User;
 import jakarta.persistence.*;
 
 // Kommentar
-
+// asd
 
 
 @Entity
