@@ -3,8 +3,7 @@ package com.practice2.testning1.User;
 import jakarta.persistence.*;
 
 // Kommentar
-// kör testerna
-// nytt försök
+
 
 
 @Entity
