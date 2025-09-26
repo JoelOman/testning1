@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 
 // Kommentar
 
+
 @Entity
 @Table(name = "users")
 public class User {
