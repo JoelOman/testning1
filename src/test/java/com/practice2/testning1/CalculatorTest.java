@@ -34,6 +34,8 @@ public class CalculatorTest {
         assertTrue(result);
     }
 
+    // -------------------------
+
     @Test
     void esEven_OddNumber_ReturnsFalse(){
         Calculator calc = new Calculator();
